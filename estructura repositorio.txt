@@ -1,0 +1,39 @@
+TP-IA-KMNIST/
+│
+├── README.md
+├── .gitignore
+├── requirements.txt
+│
+├── data/
+│   ├── raw/
+│   ├── processed/
+│   └── README.md
+│
+├── notebooks/
+│   ├── 01_exploracion_datos.ipynb
+│   ├── 02_preprocesamiento.ipynb
+│   ├── 03_modelo_base.ipynb
+│   ├── 04_entrenamiento.ipynb
+│   └── 05_evaluacion.ipynb
+│
+├── src/
+│   ├── __init__.py
+│   ├── data_loader.py
+│   ├── preprocessing.py
+│   ├── models.py
+│   ├── evaluation.py
+│   └── visualization.py
+│
+├── docs/
+│   ├── informe.md
+│   ├── metodologia.md
+│   └── conclusiones.md
+│
+├── results/
+│   ├── figures/
+│   ├── metrics/
+│   └── models/
+│
+└── scripts/
+    ├── descargar_datos.py
+    └── entrenar_modelo.py
